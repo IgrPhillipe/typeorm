@@ -1,0 +1,25 @@
+{
+  "name": "quicktypeorm",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.34"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint ./src ./__tests__ --ext .ts",
+    "lint:fix": "eslint ./src ./__tests__ --ext .ts --fix"
+  }
+}
