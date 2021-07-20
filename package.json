@@ -1,6 +1,6 @@
 {
-  "name": "backend-desafio",
-  "version": "1.0.0",
+  "name": "typeorm-studies",
+  "version": "0.0.1",
   "main": "app.ts",
   "license": "MIT",
   "scripts": {

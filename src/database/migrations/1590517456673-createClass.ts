@@ -32,7 +32,7 @@ export default class CreateClass1590517456673 implements MigrationInterface {
             default: 'now()',
           },
         ],
-      }),
+      })
     );
   }
 
